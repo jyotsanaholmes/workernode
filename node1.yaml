@@ -16,7 +16,7 @@ metadata:
     beta.kubernetes.io/arch: amd64
     beta.kubernetes.io/os: linux
     kubernetes.io/arch: amd64
-    kubernetes.io/hostname: worker-0.jyotest.lab.psi.pnq2.redhat.com
+    kubernetes.io/hostname: ip-10-0-241-80.us-east-2.compute.internal
     kubernetes.io/os: linux
     node-role.kubernetes.io/worker: ""
     node.openshift.io/os_id: rhcos
