@@ -21,4 +21,5 @@ metadata:
     node-role.kubernetes.io/worker: ""
     node.openshift.io/os_id: rhcos
     test: label
+    label: value
   name: ip-10-0-241-80.us-east-2.compute.internal
