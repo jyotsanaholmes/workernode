@@ -21,4 +21,4 @@ metadata:
     node-role.kubernetes.io/worker: ""
     node.openshift.io/os_id: rhcos
     test: label
-  name: worker-0.jyotest.lab.psi.pnq2.redhat.com
+  name: ip-10-0-241-80.us-east-2.compute.internal
