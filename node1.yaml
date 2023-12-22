@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Node
+metadata:
+  annotations:
+    machineconfiguration.openshift.io/controlPlaneTopology: HighlyAvailable
+    machineconfiguration.openshift.io/currentConfig: rendered-worker-0b2ec56c75d42063ffd98642326857df
+    machineconfiguration.openshift.io/desiredConfig: rendered-worker-0b2ec56c75d42063ffd98642326857df
+    machineconfiguration.openshift.io/desiredDrain: uncordon-rendered-worker-0b2ec56c75d42063ffd98642326857df
+    machineconfiguration.openshift.io/lastAppliedDrain: uncordon-rendered-worker-0b2ec56c75d42063ffd98642326857df
+    machineconfiguration.openshift.io/lastSyncedControllerConfigResourceVersion: "413244"
+    machineconfiguration.openshift.io/reason: ""
+    machineconfiguration.openshift.io/state: Done
+    volumes.kubernetes.io/controller-managed-attach-detach: "true"
+  creationTimestamp: "2023-12-21T10:03:08Z"
+  labels:
+    beta.kubernetes.io/arch: amd64
+    beta.kubernetes.io/os: linux
+    kubernetes.io/arch: amd64
+    kubernetes.io/hostname: worker-0.jyotest.lab.psi.pnq2.redhat.com
+    kubernetes.io/os: linux
+    node-role.kubernetes.io/worker: ""
+    node.openshift.io/os_id: rhcos
+  name: worker-0.jyotest.lab.psi.pnq2.redhat.com
